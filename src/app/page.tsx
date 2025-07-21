@@ -2,6 +2,11 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 
+/**
+ * Renders a vertically centered signup form with controlled input fields for name, email, and password.
+ *
+ * The form includes three input fields and a "signup" button, with each input field managed by React state.
+ */
 export default function Home() {
   const [name, setName] = useState<string>("");
   const [email, setEmail] = useState<string>("");
